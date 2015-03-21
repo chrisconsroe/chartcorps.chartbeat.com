@@ -1,0 +1,83 @@
+/* SUBNAV STYLES */
+
+.subnav {
+	width: 100%;
+	background-color: #F7F8F9;
+}
+
+	.subnav ul {
+		margin-bottom: -6px;
+	}
+
+	.subnav li {
+		display: block;
+		float: left;
+		min-width: 120px;
+		text-align: center;
+		font-weight: 600;
+		padding: 10px;
+	}
+
+	.subnav li:not(.active):hover {
+		background-color: rgba(255,255,255,.75);
+	}
+
+	.active {
+		background-color: #FFFFFF;
+	}
+
+
+/* MAIN STYLES */
+
+.main-edu {
+	margin: 40px 0;
+}
+
+.more {
+	padding: 20px 40px;
+}
+
+.more:hover a {
+	color: #FFFFFF;
+}
+
+/* CALENDAR STYLES */
+
+.cal-container {
+	margin: 40px -21px;
+}
+
+	.cal {
+		width: 260px;
+		height: 300px;
+		padding: 30px 20px;
+		margin: 20px;
+	}
+
+		.date1, .date2 {
+			text-transform: uppercase;
+			letter-spacing: 1px;
+			font-weight: 700;
+		}
+
+		.date1 {
+			font-size: 12px;
+		}
+
+		.date2 {
+			font-size: 48px;
+			color: #1EA89D;
+			margin: -10px;
+		}
+
+		.webinar {
+			margin: 35px 0;
+		}
+
+		.webinar-info {
+			line-height: 17px;
+		}
+
+	.cal:hover .date2 {
+		color: #FFFFFF;
+	}
